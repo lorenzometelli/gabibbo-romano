@@ -154,8 +154,9 @@
     <div class="notizia" onclick="toggleExtraContentReijnders()">
       <h2>Milan, trattativa con il Manchester City per Reijnders, via solo per un'offerta irrinunciabile</h2>
        <p>L'olandese andrà via solo per una cifra che si aggira tra i 65 mln e i 70 mln,
+        La proposta del City si aggira intorno ai 60 milioni di euro.
         Tare lo ritene una colonna portante insieme a Maignan alla quale si sta
-        lavorando per il rinnovo, Leao e Pulisic. </p>
+        lavorando per il rinnovo, Leao e Pulisic. Ma cresce la fiducia in territorio inglese </p>
       <div class="extra-content" id="extra-content-reijnders">
         Ufficiale manchester city chiede un bonifico a Biglele per comprare rejinders
         <br />
@@ -183,6 +184,21 @@
         <img src="https://cdn.7tv.app/emote/01GR20ZKDG0008TBEVAMWNREKS/4x.avif" alt="Giuntoli meme" />
       </div>
     </div>
+    
+    <div class="notizia" onclick="toggleExtraContentGMilan()">
+      <h2>Milan alla ricerca di un regista</h2>
+      <p>Con l'alzarsi dell probabilità di cessione di Rejinders il Milan è alla ricerca di un mediano.
+        Il nome di Ricci resta sempre in orbita Milan, il dialogo con il suo agente va avanti da diversi mesi. Senza però avanzare con decisione 
+        perché la richiesta è molto elevata: 35 milioni di euro. Ecco perché nei giorni scorsi il club rossonero ha avuto un contatto esplorativo 
+        con il Venezia per Nicolussi Caviglia.
+    </p>
+      <div class="extra-content" id="extra-content-milan">
+        Cairo pronto a richiedere 100 mln per un qualsiasi giocatore che sappia stoppare un pallone
+        <br />
+        <img src="https://cdn.7tv.app/emote/01FZAGDBBR000DPFPNZDKV8XKJ/4x.avif" alt="Milan meme" />
+      </div>
+    </div>
+    
 
   </section>
   <script>
@@ -220,6 +236,11 @@
     }
     function toggleExtraContentGiuntoli() {
       var content = document.getElementById('extra-content-giuntoli');
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+
+     function toggleExtraContentMilan() {
+      var content = document.getElementById('extra-content-milan');
       content.style.display = content.style.display === 'block' ? 'none' : 'block';
     }
   </script>
